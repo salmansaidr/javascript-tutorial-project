@@ -4,11 +4,11 @@ class Timer {
         this.startButton = startButton;
         this.pauseButton = pauseButton;
 
-        startButton.addEventListener('click', this.start);
+        this.startButton.addEventListener('click', this.start);
     }
 
     start() {
-        console.log('lets start the timer');
+        console.log('Time to start the timer!');
     }
 }
 
